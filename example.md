@@ -17,13 +17,34 @@ Investigated a sophisticated phishing email that bypassed email filters and led 
 5. Traced attacker activity post-compromise - attempted mailbox access
 
 ## Indicators of Compromise (IOCs)
-| Type | Value | Description |
-|------|-------|-------------|
-| Domain | secure-office365-login[.]com | Fake login page |
-| IP Address | 185.220.101.X | Attacker infrastructure |
-| File Hash | a3f2e1... | Malicious attachment (if applicable) |
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Value</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Domain</td>
+      <td>secure-office365-login[.]com</td>
+      <td>Fake login page</td>
+    </tr>
+    <tr>
+      <td>IP Address</td>
+      <td>185.220.101.X</td>
+      <td>Attacker infrastructure</td>
+    </tr>
+    <tr>
+      <td>File Hash</td>
+      <td>a3f2e1...</td>
+      <td>Malicious attachment (if applicable)</td>
+    </tr>
+  </tbody>
+</table>
 
-## MITRE ATT&CK Mapping
+<h1>MITRE ATT&CK Mapping</h1> 
 - **T1566.002:** Phishing - Spearphishing Link
 - **T1078:** Valid Accounts (compromised credentials)
 - **T1114:** Email Collection (attempted)
