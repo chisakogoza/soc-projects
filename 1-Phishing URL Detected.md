@@ -53,13 +53,9 @@
 <img src="images/CA3-2.png">
 <p>4. Investigated the MD5 hash via ANY.RUN as dynamic research and found C2 IP address as 69.39.225.3  </p>
 <img src="images/CA4.png">
-<p>Verified that no outbound connections were established to the C2 infrastructure via log management (69.39.225.3 / a.pomf.cat from ANY.RUN)</p>
+<p>5. Verified that no outbound connections were established to the C2 infrastructure via log management (69.39.225.3 / a.pomf.cat from ANY.RUN)</p>
 <img src="images/CA5.png">
-<h3>Final status - True Positive </h3>
+<h2>Final status - True Positive </h2>
 <p>Confirmed the threat was fully contained with zero evidence of host compromise.</p>
 <p>Targeted host "Exchange Server" has been verified safe.</p>
-
-
-
-
 </body>
