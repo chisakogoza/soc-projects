@@ -1,8 +1,8 @@
 <body>
 <h1>Phishing Mail Detected - Suspicious Task Scheduler</h1>
 <h2>Summary</h2>
-<p>Email from aaronluo@cmail.carleton.ca to mark@letsdefend.io triggered this alert and was blocked by the email security control. The email contained a PDF attachment. The attachment was analyzed in VirusTotal MD5 (39fb927c32221134a423760c5d1f58bca4cbbcc87c891c79e390a22b63608eb4) and is classified as Trojan.PDF. Dynamic analysis in Any.run showed the PDF attempts to contact C2 infrastrucuture at 69.39.225.3 (a.pomf.cat) which is confirmed malicious in VirusTotal.　Log management shows no outbound connections to the C2 address and the alert indicates the action was blocked so it is safe to assume the PDF was not opened and threat was contained.</p>
-<p>or</p>
+<!-- <p>Email from aaronluo@cmail.carleton.ca to mark@letsdefend.io triggered this alert and was blocked by the email security control. The email contained a PDF attachment. The attachment was analyzed in VirusTotal MD5 (39fb927c32221134a423760c5d1f58bca4cbbcc87c891c79e390a22b63608eb4) and is classified as Trojan.PDF. Dynamic analysis in Any.run showed the PDF attempts to contact C2 infrastrucuture at 69.39.225.3 (a.pomf.cat) which is confirmed malicious in VirusTotal.　Log management shows no outbound connections to the C2 address and the alert indicates the action was blocked so it is safe to assume the PDF was not opened and threat was contained.</p>
+<p>or</p> -->
 <P>Investigated a phishing email carrying a malicious file attachment " Trojan.PDF" targeting "mark@letsdefend.io". The email was automatically blocked at the perimeter, and telemetry analysis confirmed zero outbound C2 connections, fully containing the threat with no host compromise.</P>
 <h2>Indicators of Compromise</h2>
 <table>
@@ -20,18 +20,18 @@
             <td>malicious PDF file attached </td>
         </tr>
         <tr>
-            <td>MD5</td>
+            <td>SHA-256</td>
             <td>39fb927c32221134a423760c5d1f58bca4cbbcc87c891c79e390a22b63608eb4</td>
             <td>classified as Trojan.PDF in VirusTotal </td>
         </tr>
          <tr>
       <td>C2 IP Address domain</td>
-      <td>a.pomf.cat</td>
+      <td>a[.]pomf[.]cat</td>
       <td>Dynamic analysis in Any.run showed the PDF attempts to contact C2 infrastrucuture </td>
     </tr>
      <tr>
       <td>C2 IP Address </td>
-      <td>69.39.225.3</td>
+      <td>69[.]39[.]225[.]3</td>
       <td>Dynamic analysis in Any.run showed the PDF attempts to contact C2 infrastrucuture </td>
     </tr>
     </tbody>
