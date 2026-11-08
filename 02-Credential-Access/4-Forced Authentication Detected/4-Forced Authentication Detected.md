@@ -50,6 +50,6 @@
 <img src="2-4images/CA4.png">
 
 <h2>Final status - True Positive </h2>
-<p>Thought took a containment action at the end point section, more actions such as resetting compromised credentials, adjusting firewall’s setting, and mitigation measures like account lockout policies and stronger password setting would be recommended as escalating to level 2 senior security analysts.</p>
+<p>Though took a containment action at the end point section, more actions such as resetting compromised credentials, adjusting firewall’s setting, and mitigation measures like account lockout policies and stronger password setting would be recommended as escalating to level 2 senior security analysts.</p>
 
 </body>
