@@ -16,7 +16,7 @@
     <tbody>
         <tr>
             <td>Attacker's Email Address</td>
-            <td>aaronluo@cmail.carleton.ca</td>
+            <td>aaronluo[at]cmail.carleton.ca</td>
             <td>malicious PDF file attached </td>
         </tr>
         <tr>
