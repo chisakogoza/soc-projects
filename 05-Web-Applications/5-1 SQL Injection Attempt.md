@@ -41,7 +41,7 @@
 <img src="images/CA2.png">
 
 <p>3. Looking further into this log information, I found this raw log that shows some suspicious keywords and through cyberchef, confirmed three signes regarding to SQL injections as below: </p>
-<img src="images/CA3.png">
+<img src="images/CA3-1.png">
 <img src="images/CA3-2.png">
 <p> a "1=1"  <br>
 this is one of the severe signs for the SQL injection since this means the application would excute commands under any conditions.
