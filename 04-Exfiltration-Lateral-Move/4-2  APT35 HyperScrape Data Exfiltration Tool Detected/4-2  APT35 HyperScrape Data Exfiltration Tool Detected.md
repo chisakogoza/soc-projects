@@ -27,7 +27,7 @@
 <p>T1078　 - Valid Accounts</p>
 <p>T1539　 - Steal Web Session Cookie</p>
 <p>T1114　 - Email Collection</p>
-<p>T1041   - Exfiltration Over C2 Channel</p>
+<p>T1041   -  Exfiltration Over C2 Channel</p>
 
 
 <h2>Investigation & Containment Actions</h2>
